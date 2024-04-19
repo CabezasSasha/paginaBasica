@@ -1,0 +1,57 @@
+header {
+    background-color: #fde8e8;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    flex-direction: unset;
+    color: #f55151;
+}
+
+.imgLogo {
+    width: 50px;
+    margin-left: 10px;
+}
+
+.menuPrincipal {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menuOpciones {
+    display: inline-block;
+    position: relative;
+}
+
+.menuOpciones a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #f90000; /* Color del texto del menú */
+}
+
+.subMenuGrupo {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff; /* Color de fondo del submenú */
+    border: 1px solid #ccc; /* Borde del submenú */
+    z-index: 1; /* Para que el submenú esté por encima del contenido */
+}
+
+.subMenuOpciones {
+    display: block;
+}
+
+.menuOpciones:hover .subMenuGrupo {
+    display: block;
+}
+
+

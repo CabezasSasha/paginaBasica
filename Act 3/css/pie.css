@@ -1,0 +1,28 @@
+footer {
+    background-color: #05021b;
+    padding: 90px;
+    text-align: center;
+}
+
+.grupoDePie {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.grupoDePieItem {
+    width:1200px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.tituloDePie {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.textoDePie {
+    color: #f38ec7;
+    margin: 5px;
+}
